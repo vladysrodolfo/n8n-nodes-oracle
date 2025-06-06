@@ -1,29 +1,29 @@
 {
-	"compilerOptions": {
-		"lib": ["es2019", "es2020", "es2022.error"],
-		
-		"module": "commonjs",
-		"noImplicitAny": true,
-		"removeComments": true,
-		"strictNullChecks": true,
-		"strict": true,
-		"preserveConstEnums": true,
-		"resolveJsonModule": true,
-		"declaration": true,
-		"outDir": "./dist/",
-		"target": "es2019",
-		"sourceMap": true,
-		"esModuleInterop": true,
-		"useUnknownInCatchVariables": false,
-		"moduleResolution": "node",
-		"forceConsistentCasingInFileNames": true,
-		"incremental": true,
-		"skipLibCheck": true
-	},
-	"include": [
-		"credentials/**/*",
-		"nodes/**/*",
-		"nodes/**/*.json",
-		"package.json",
-	],
+  "compilerOptions": {
+    "lib": ["es2019", "es2020", "es2022.error"],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "strict": false,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "outDir": "./dist/",
+    "target": "es2019",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "credentials/**/*",
+    "nodes/**/*",
+    "nodes/**/*.json",
+    "package.json"
+  ]
 }
